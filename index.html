@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- https://github.com/mattboldt/typed.js/ -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,10 +12,10 @@
     <header class="header">
         <a href="#" class="logo">Portfolio.</a>
         <nav class="navbar">
-            <a href="#" id="action">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Skills</a>
+            <a href="#" style="--i:1;" id="action">Home</a>
+            <a href="#" style="--i:2;">About</a>
+            <a href="#" style="--i:3;">Contact</a>
+            <a href="#" style="--i:4;">Skills</a>
         </nav>
     </header>
 
@@ -22,13 +23,13 @@
         <div class="home-content">
             <h3>Hello It's me</h3>
             <h1>Austin Luna</h1>
-            <h3>I'm a <span>Developer</span></h1>
+            <h3>I'm a <span class="multiple-text"></span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur maxime</p>
             <div class="social-media">
-                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#" style="--i:6;"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#" style="--i:7;"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#" style="--i:8;"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#" style="--i:9;"><ion-icon name="logo-twitter"></ion-icon></a>
             </div>
             <a href="#" class="btn">Download CV</a>            
         </div>
@@ -38,6 +39,7 @@
     </section>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
 <script src="script.js"></script>
+</body>
 </html>
